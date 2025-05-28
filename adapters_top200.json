@@ -1,0 +1,1402 @@
+[
+  {
+    "name": "11FR_ANTO",
+    "link": "https://11clubhouse.com/501349/",
+    "rank": 1,
+    "elo": 3873,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "CHN_shayne115",
+    "link": "https://11clubhouse.com/558168/",
+    "rank": 2,
+    "elo": 3808,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "Natping",
+    "link": "https://11clubhouse.com/1569207/",
+    "rank": 3,
+    "elo": 3796,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "ProTT_VR",
+    "link": "https://11clubhouse.com/347650/",
+    "rank": 4,
+    "elo": 3745,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Aiphaton",
+    "link": "https://11clubhouse.com/315909/",
+    "rank": 5,
+    "elo": 3696,
+    "paddleAdapter": "BONWASY adapter"
+  },
+  {
+    "name": "Swiss11Rally",
+    "link": "https://11clubhouse.com/1812688/",
+    "rank": 6,
+    "elo": 3692,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "11BRA_Wlad",
+    "link": "https://11clubhouse.com/1716312/",
+    "rank": 7,
+    "elo": 3654,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "SELDON36",
+    "link": "https://11clubhouse.com/484532/",
+    "rank": 8,
+    "elo": 3623,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "11FR_Elessar",
+    "link": "https://11clubhouse.com/154174/",
+    "rank": 9,
+    "elo": 3595,
+    "paddleAdapter": "BONWASY adapter"
+  },
+  {
+    "name": "11G_Magnic",
+    "link": "https://11clubhouse.com/789775/",
+    "rank": 10,
+    "elo": 3577,
+    "paddleAdapter": "BONWASY adapter"
+  },
+  {
+    "name": "11FR_GODA49",
+    "link": "https://11clubhouse.com/1561548/",
+    "rank": 11,
+    "elo": 3558,
+    "paddleAdapter": "BONWASY adapter"
+  },
+  {
+    "name": "JoeTT",
+    "link": "https://11clubhouse.com/459502/",
+    "rank": 12,
+    "elo": 3553,
+    "paddleAdapter": "No adapter, only VR controller"
+  },
+  {
+    "name": "LearnerForever",
+    "link": "https://11clubhouse.com/186338/",
+    "rank": 13,
+    "elo": 3538,
+    "paddleAdapter": "WASYL adapter"
+  },
+  {
+    "name": "11US_DrLE",
+    "link": "https://11clubhouse.com/660557/",
+    "rank": 14,
+    "elo": 3503,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "Marls05",
+    "link": "https://11clubhouse.com/1229913/",
+    "rank": 15,
+    "elo": 3499,
+    "paddleAdapter": "WASYL adapter"
+  },
+  {
+    "name": "11fr-Grillon03",
+    "link": "https://11clubhouse.com/709273/",
+    "rank": 16,
+    "elo": 3463,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Lekvarik",
+    "link": "https://11clubhouse.com/1675715/",
+    "rank": 17,
+    "elo": 3444,
+    "paddleAdapter": "my own adapter"
+  },
+  {
+    "name": "Lapoctopus",
+    "link": "https://11clubhouse.com/234850/",
+    "rank": 18,
+    "elo": 3440,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Forimba",
+    "link": "https://11clubhouse.com/2488877/",
+    "rank": 19,
+    "elo": 3430,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "11FR-Stillskin",
+    "link": "https://11clubhouse.com/1952446/",
+    "rank": 20,
+    "elo": 3424,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "zkgcurry30",
+    "link": "https://11clubhouse.com/2638079/",
+    "rank": 21,
+    "elo": 3390,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "nore",
+    "link": "https://11clubhouse.com/1525012/",
+    "rank": 22,
+    "elo": 3389,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "jinlongyu",
+    "link": "https://11clubhouse.com/1733335/",
+    "rank": 23,
+    "elo": 3381,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "11FR_Soucelois",
+    "link": "https://11clubhouse.com/1599551/",
+    "rank": 24,
+    "elo": 3370,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "meta.000",
+    "link": "https://11clubhouse.com/2203956/",
+    "rank": 25,
+    "elo": 3368,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Camillelachampionne",
+    "link": "https://11clubhouse.com/2304281/",
+    "rank": 26,
+    "elo": 3358,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "VRGolden",
+    "link": "https://11clubhouse.com/111755/",
+    "rank": 27,
+    "elo": 3348,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "leoarata",
+    "link": "https://11clubhouse.com/2528856/",
+    "rank": 28,
+    "elo": 3344,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "11FR~RIBOU85",
+    "link": "https://11clubhouse.com/297223/",
+    "rank": 29,
+    "elo": 3337,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "uniquemj",
+    "link": "https://11clubhouse.com/952522/",
+    "rank": 30,
+    "elo": 3337,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "NoTalkWudeQ3",
+    "link": "https://11clubhouse.com/1519100/",
+    "rank": 31,
+    "elo": 3337,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "schlowy",
+    "link": "https://11clubhouse.com/1590635/",
+    "rank": 32,
+    "elo": 3336,
+    "paddleAdapter": "No adapter, only VR controller"
+  },
+  {
+    "name": "KIN_CEO",
+    "link": "https://11clubhouse.com/1517572/",
+    "rank": 33,
+    "elo": 3334,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "CD94TT",
+    "link": "https://11clubhouse.com/330457/",
+    "rank": 34,
+    "elo": 3333,
+    "paddleAdapter": "PONGORI PAD500 adapter"
+  },
+  {
+    "name": "KIN_CHAIRMAN",
+    "link": "https://11clubhouse.com/1623479/",
+    "rank": 35,
+    "elo": 3333,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Legacy92",
+    "link": "https://11clubhouse.com/2439235/",
+    "rank": 36,
+    "elo": 3325,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "dynamictree",
+    "link": "https://11clubhouse.com/900744/",
+    "rank": 37,
+    "elo": 3320,
+    "paddleAdapter": "BONWASY adapter"
+  },
+  {
+    "name": "11FR-YOYO69",
+    "link": "https://11clubhouse.com/519852/",
+    "rank": 38,
+    "elo": 3309,
+    "paddleAdapter": "PONGORI PAD500 adapter"
+  },
+  {
+    "name": "raspberrypi",
+    "link": "https://11clubhouse.com/1591742/",
+    "rank": 39,
+    "elo": 3301,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Chronomancer",
+    "link": "https://11clubhouse.com/415156/",
+    "rank": 40,
+    "elo": 3300,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "11FR_JujuVoss",
+    "link": "https://11clubhouse.com/1524259/",
+    "rank": 41,
+    "elo": 3292,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Greedy Belly",
+    "link": "https://11clubhouse.com/2228346/",
+    "rank": 42,
+    "elo": 3281,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "TryhardASIAN",
+    "link": "https://11clubhouse.com/14221/",
+    "rank": 43,
+    "elo": 3262,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "OCULUS666",
+    "link": "https://11clubhouse.com/1341626/",
+    "rank": 44,
+    "elo": 3255,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "11FR_paulo49",
+    "link": "https://11clubhouse.com/1642793/",
+    "rank": 45,
+    "elo": 3250,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "Pico-115",
+    "link": "https://11clubhouse.com/583429/",
+    "rank": 46,
+    "elo": 3250,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "CHN_zhiyu",
+    "link": "https://11clubhouse.com/1253073/",
+    "rank": 47,
+    "elo": 3245,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "twISTer_TEST",
+    "link": "https://11clubhouse.com/221049/",
+    "rank": 48,
+    "elo": 3234,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "#Magician#",
+    "link": "https://11clubhouse.com/1570430/",
+    "rank": 49,
+    "elo": 3231,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "papa noel",
+    "link": "https://11clubhouse.com/840691/",
+    "rank": 50,
+    "elo": 3231,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "11fr_PONGMAN",
+    "link": "https://11clubhouse.com/1474792/",
+    "rank": 51,
+    "elo": 3228,
+    "paddleAdapter": "PONGORI PAD500 adapter"
+  },
+  {
+    "name": "Skylla",
+    "link": "https://11clubhouse.com/95258/",
+    "rank": 52,
+    "elo": 3224,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "emart_11",
+    "link": "https://11clubhouse.com/14294/",
+    "rank": 53,
+    "elo": 3219,
+    "paddleAdapter": "BONWASY adapter"
+  },
+  {
+    "name": "yanabis.2023",
+    "link": "https://11clubhouse.com/1663124/",
+    "rank": 54,
+    "elo": 3218,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "fryingpon",
+    "link": "https://11clubhouse.com/1765225/",
+    "rank": 55,
+    "elo": 3217,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "[BGS]jongshilj",
+    "link": "https://11clubhouse.com/339018/",
+    "rank": 56,
+    "elo": 3216,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "11zbobby",
+    "link": "https://11clubhouse.com/597181/",
+    "rank": 57,
+    "elo": 3216,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "TTTorpedo",
+    "link": "https://11clubhouse.com/1809589/",
+    "rank": 58,
+    "elo": 3214,
+    "paddleAdapter": "BONWASY adapter"
+  },
+  {
+    "name": "Schmev",
+    "link": "https://11clubhouse.com/1969648/",
+    "rank": 59,
+    "elo": 3214,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "free-lesson",
+    "link": "https://11clubhouse.com/1935610/",
+    "rank": 60,
+    "elo": 3214,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "defense.glory",
+    "link": "https://11clubhouse.com/1573556/",
+    "rank": 61,
+    "elo": 3213,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "11K_fjvbn2003",
+    "link": "https://11clubhouse.com/1738959/",
+    "rank": 62,
+    "elo": 3210,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "Remi_Cresso",
+    "link": "https://11clubhouse.com/1580413/",
+    "rank": 63,
+    "elo": 3205,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "ultimatebeast",
+    "link": "https://11clubhouse.com/99279/",
+    "rank": 64,
+    "elo": 3203,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "HolyBalla",
+    "link": "https://11clubhouse.com/704881/",
+    "rank": 65,
+    "elo": 3203,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "zhonglaji",
+    "link": "https://11clubhouse.com/1764103/",
+    "rank": 66,
+    "elo": 3201,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "chils1404",
+    "link": "https://11clubhouse.com/2692556/",
+    "rank": 67,
+    "elo": 3200,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "NETERR",
+    "link": "https://11clubhouse.com/2172700/",
+    "rank": 68,
+    "elo": 3200,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "dynamictest",
+    "link": "https://11clubhouse.com/1483289/",
+    "rank": 69,
+    "elo": 3200,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "11BRA_Rodrigo_Leo",
+    "link": "https://11clubhouse.com/2612125/",
+    "rank": 70,
+    "elo": 3198,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "zhiyu",
+    "link": "https://11clubhouse.com/1120853/",
+    "rank": 71,
+    "elo": 3196,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "vrtest",
+    "link": "https://11clubhouse.com/2698123/",
+    "rank": 72,
+    "elo": 3192,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "lukewarmdogwater",
+    "link": "https://11clubhouse.com/439250/",
+    "rank": 73,
+    "elo": 3186,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "poussinou\n      contre-attaqu",
+    "link": "https://11clubhouse.com/1672926/",
+    "rank": 74,
+    "elo": 3181,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "agui",
+    "link": "https://11clubhouse.com/1714849/",
+    "rank": 75,
+    "elo": 3181,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "CHN_Monster",
+    "link": "https://11clubhouse.com/1871582/",
+    "rank": 76,
+    "elo": 3180,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "Athyla.Naoki",
+    "link": "https://11clubhouse.com/2344413/",
+    "rank": 77,
+    "elo": 3180,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "xyrzock",
+    "link": "https://11clubhouse.com/1381707/",
+    "rank": 78,
+    "elo": 3179,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "sealedbackhand",
+    "link": "https://11clubhouse.com/2660711/",
+    "rank": 79,
+    "elo": 3179,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "[BGS]3RDLife",
+    "link": "https://11clubhouse.com/759958/",
+    "rank": 80,
+    "elo": 3179,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "toniali",
+    "link": "https://11clubhouse.com/2019391/",
+    "rank": 81,
+    "elo": 3178,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Jungmatin",
+    "link": "https://11clubhouse.com/2224716/",
+    "rank": 82,
+    "elo": 3175,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Leftman67",
+    "link": "https://11clubhouse.com/1042291/",
+    "rank": 83,
+    "elo": 3169,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "McGonagal",
+    "link": "https://11clubhouse.com/1671059/",
+    "rank": 84,
+    "elo": 3165,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Xiaopacai",
+    "link": "https://11clubhouse.com/1895639/",
+    "rank": 85,
+    "elo": 3163,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Laohu",
+    "link": "https://11clubhouse.com/1546528/",
+    "rank": 86,
+    "elo": 3162,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "LaoSIji",
+    "link": "https://11clubhouse.com/1696644/",
+    "rank": 87,
+    "elo": 3160,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "xiaoyuzhou",
+    "link": "https://11clubhouse.com/1503566/",
+    "rank": 88,
+    "elo": 3157,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "noire",
+    "link": "https://11clubhouse.com/1622298/",
+    "rank": 89,
+    "elo": 3155,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Porter",
+    "link": "https://11clubhouse.com/193302/",
+    "rank": 90,
+    "elo": 3154,
+    "paddleAdapter": "BONWASY adapter"
+  },
+  {
+    "name": "NotEnjoyingIt",
+    "link": "https://11clubhouse.com/1632841/",
+    "rank": 91,
+    "elo": 3154,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "iamhim1",
+    "link": "https://11clubhouse.com/1495339/",
+    "rank": 92,
+    "elo": 3153,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "battle miao",
+    "link": "https://11clubhouse.com/2322922/",
+    "rank": 93,
+    "elo": 3153,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Gio-TT",
+    "link": "https://11clubhouse.com/1056074/",
+    "rank": 94,
+    "elo": 3153,
+    "paddleAdapter": "BONWASY adapter"
+  },
+  {
+    "name": "jonurkel",
+    "link": "https://11clubhouse.com/501849/",
+    "rank": 95,
+    "elo": 3152,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "11BRA_Tedy",
+    "link": "https://11clubhouse.com/2602253/",
+    "rank": 96,
+    "elo": 3149,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "Viscaria-light",
+    "link": "https://11clubhouse.com/1276502/",
+    "rank": 97,
+    "elo": 3147,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "sir77",
+    "link": "https://11clubhouse.com/467066/",
+    "rank": 98,
+    "elo": 3142,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "ttleb",
+    "link": "https://11clubhouse.com/1833360/",
+    "rank": 99,
+    "elo": 3142,
+    "paddleAdapter": "No adapter, only VR controller"
+  },
+  {
+    "name": "Cyg0006",
+    "link": "https://11clubhouse.com/1603151/",
+    "rank": 100,
+    "elo": 3140,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "11G_PATRICK",
+    "link": "https://11clubhouse.com/351172/",
+    "rank": 101,
+    "elo": 3138,
+    "paddleAdapter": "SANLAKI adapter"
+  },
+  {
+    "name": "CHN_Lathan",
+    "link": "https://11clubhouse.com/1830469/",
+    "rank": 102,
+    "elo": 3137,
+    "paddleAdapter": "JKL PENHOLD adapter"
+  },
+  {
+    "name": "Looeelooee",
+    "link": "https://11clubhouse.com/1950121/",
+    "rank": 103,
+    "elo": 3136,
+    "paddleAdapter": "BONWASY adapter"
+  },
+  {
+    "name": "Aleksandar",
+    "link": "https://11clubhouse.com/1619303/",
+    "rank": 104,
+    "elo": 3136,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "76Spirit76",
+    "link": "https://11clubhouse.com/201352/",
+    "rank": 105,
+    "elo": 3134,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "JoeBroski2286",
+    "link": "https://11clubhouse.com/841419/",
+    "rank": 106,
+    "elo": 3134,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "11FR~LEFAB24",
+    "link": "https://11clubhouse.com/810477/",
+    "rank": 107,
+    "elo": 3134,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "VVK_0717",
+    "link": "https://11clubhouse.com/1381944/",
+    "rank": 108,
+    "elo": 3132,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "slowly",
+    "link": "https://11clubhouse.com/1268445/",
+    "rank": 109,
+    "elo": 3132,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "KOSmos56ru",
+    "link": "https://11clubhouse.com/2664055/",
+    "rank": 110,
+    "elo": 3127,
+    "paddleAdapter": "BONWASY adapter"
+  },
+  {
+    "name": ")>nobody<(",
+    "link": "https://11clubhouse.com/1609755/",
+    "rank": 111,
+    "elo": 3125,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "magicmushroom",
+    "link": "https://11clubhouse.com/444427/",
+    "rank": 112,
+    "elo": 3123,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "llaodage",
+    "link": "https://11clubhouse.com/2083706/",
+    "rank": 113,
+    "elo": 3123,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "CHN_KAI",
+    "link": "https://11clubhouse.com/1812545/",
+    "rank": 114,
+    "elo": 3123,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "11G_twISTer79",
+    "link": "https://11clubhouse.com/11002/",
+    "rank": 115,
+    "elo": 3122,
+    "paddleAdapter": "No adapter, only VR controller"
+  },
+  {
+    "name": "11c_CHRIST",
+    "link": "https://11clubhouse.com/1287567/",
+    "rank": 116,
+    "elo": 3122,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "GENTLEBUTCHER",
+    "link": "https://11clubhouse.com/1339674/",
+    "rank": 117,
+    "elo": 3122,
+    "paddleAdapter": "SANLAKI adapter"
+  },
+  {
+    "name": "wronghand-l4",
+    "link": "https://11clubhouse.com/1835573/",
+    "rank": 118,
+    "elo": 3121,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "luck_flook",
+    "link": "https://11clubhouse.com/1663860/",
+    "rank": 119,
+    "elo": 3121,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "nicoping",
+    "link": "https://11clubhouse.com/2469924/",
+    "rank": 120,
+    "elo": 3120,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "TTKillshot",
+    "link": "https://11clubhouse.com/2447220/",
+    "rank": 121,
+    "elo": 3120,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "augten",
+    "link": "https://11clubhouse.com/2219702/",
+    "rank": 122,
+    "elo": 3120,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Leperefoura",
+    "link": "https://11clubhouse.com/1756248/",
+    "rank": 123,
+    "elo": 3118,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "FRANCISCO",
+    "link": "https://11clubhouse.com/2186482/",
+    "rank": 124,
+    "elo": 3117,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Dang-",
+    "link": "https://11clubhouse.com/1520134/",
+    "rank": 125,
+    "elo": 3116,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "vladejs",
+    "link": "https://11clubhouse.com/761925/",
+    "rank": 126,
+    "elo": 3115,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "PingPodTim",
+    "link": "https://11clubhouse.com/626356/",
+    "rank": 127,
+    "elo": 3115,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "umbrella",
+    "link": "https://11clubhouse.com/697302/",
+    "rank": 128,
+    "elo": 3112,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "zephyr8",
+    "link": "https://11clubhouse.com/1339831/",
+    "rank": 129,
+    "elo": 3112,
+    "paddleAdapter": "No adapter, only VR controller"
+  },
+  {
+    "name": "La Ren",
+    "link": "https://11clubhouse.com/2410646/",
+    "rank": 130,
+    "elo": 3111,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "zogla",
+    "link": "https://11clubhouse.com/2587058/",
+    "rank": 131,
+    "elo": 3108,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "LaoSiJi",
+    "link": "https://11clubhouse.com/1235373/",
+    "rank": 132,
+    "elo": 3107,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "a-ghost",
+    "link": "https://11clubhouse.com/1473498/",
+    "rank": 133,
+    "elo": 3106,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "albert@",
+    "link": "https://11clubhouse.com/492886/",
+    "rank": 134,
+    "elo": 3106,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "LAOSIJI",
+    "link": "https://11clubhouse.com/1143113/",
+    "rank": 135,
+    "elo": 3106,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "dartyarty",
+    "link": "https://11clubhouse.com/67743/",
+    "rank": 136,
+    "elo": 3104,
+    "paddleAdapter": "BONWASY adapter"
+  },
+  {
+    "name": "ZYBYL",
+    "link": "https://11clubhouse.com/1424178/",
+    "rank": 137,
+    "elo": 3102,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Peter_R_Ger",
+    "link": "https://11clubhouse.com/1921268/",
+    "rank": 138,
+    "elo": 3101,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "GigaPong",
+    "link": "https://11clubhouse.com/2197823/",
+    "rank": 139,
+    "elo": 3097,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "11G_BM-cross",
+    "link": "https://11clubhouse.com/479839/",
+    "rank": 140,
+    "elo": 3096,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "jklai",
+    "link": "https://11clubhouse.com/392372/",
+    "rank": 141,
+    "elo": 3094,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "11FR_MonquiRanger",
+    "link": "https://11clubhouse.com/2522919/",
+    "rank": 142,
+    "elo": 3090,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "Obese",
+    "link": "https://11clubhouse.com/357073/",
+    "rank": 143,
+    "elo": 3089,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "McDingus",
+    "link": "https://11clubhouse.com/26671/",
+    "rank": 144,
+    "elo": 3088,
+    "paddleAdapter": "No adapter, only VR controller"
+  },
+  {
+    "name": "cespedes_clayton",
+    "link": "https://11clubhouse.com/2442857/",
+    "rank": 145,
+    "elo": 3088,
+    "paddleAdapter": "No adapter, only VR controller"
+  },
+  {
+    "name": "lizhidora",
+    "link": "https://11clubhouse.com/720048/",
+    "rank": 146,
+    "elo": 3087,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "11K_JONGSHIL",
+    "link": "https://11clubhouse.com/1164477/",
+    "rank": 147,
+    "elo": 3084,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "crescendo",
+    "link": "https://11clubhouse.com/1169111/",
+    "rank": 148,
+    "elo": 3082,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "real life competitor",
+    "link": "https://11clubhouse.com/6502/",
+    "rank": 149,
+    "elo": 3080,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "VairavelTT",
+    "link": "https://11clubhouse.com/1698877/",
+    "rank": 150,
+    "elo": 3079,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "VESTRE",
+    "link": "https://11clubhouse.com/1027930/",
+    "rank": 151,
+    "elo": 3075,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "portu11adapter",
+    "link": "https://11clubhouse.com/1031153/",
+    "rank": 152,
+    "elo": 3074,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "MMATHUR97",
+    "link": "https://11clubhouse.com/2577312/",
+    "rank": 153,
+    "elo": 3074,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "escanor",
+    "link": "https://11clubhouse.com/1196520/",
+    "rank": 154,
+    "elo": 3074,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "anpon",
+    "link": "https://11clubhouse.com/1360251/",
+    "rank": 155,
+    "elo": 3072,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "11FR_Bichette19",
+    "link": "https://11clubhouse.com/1666827/",
+    "rank": 156,
+    "elo": 3072,
+    "paddleAdapter": "PONGORI PAD500 adapter"
+  },
+  {
+    "name": "LaoSiJI",
+    "link": "https://11clubhouse.com/619594/",
+    "rank": 157,
+    "elo": 3071,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "11FR-Ghost",
+    "link": "https://11clubhouse.com/628748/",
+    "rank": 158,
+    "elo": 3071,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "JamesJimmyJim",
+    "link": "https://11clubhouse.com/108374/",
+    "rank": 159,
+    "elo": 3070,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "Hjermind_DK",
+    "link": "https://11clubhouse.com/1203595/",
+    "rank": 160,
+    "elo": 3070,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "[BGS]MrsLurker",
+    "link": "https://11clubhouse.com/1047780/",
+    "rank": 161,
+    "elo": 3069,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "LittleSquirrel",
+    "link": "https://11clubhouse.com/776929/",
+    "rank": 162,
+    "elo": 3068,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Jonh5413",
+    "link": "https://11clubhouse.com/1696561/",
+    "rank": 163,
+    "elo": 3067,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "A88ce",
+    "link": "https://11clubhouse.com/2146696/",
+    "rank": 164,
+    "elo": 3065,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "NoKill",
+    "link": "https://11clubhouse.com/1737500/",
+    "rank": 165,
+    "elo": 3065,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "LAOsiji",
+    "link": "https://11clubhouse.com/1720517/",
+    "rank": 166,
+    "elo": 3064,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "frlaw25062000",
+    "link": "https://11clubhouse.com/1565005/",
+    "rank": 167,
+    "elo": 3063,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "CHN_Mingzhe",
+    "link": "https://11clubhouse.com/2096857/",
+    "rank": 168,
+    "elo": 3062,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Golavsek",
+    "link": "https://11clubhouse.com/1733375/",
+    "rank": 169,
+    "elo": 3061,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "a1dc",
+    "link": "https://11clubhouse.com/1861637/",
+    "rank": 170,
+    "elo": 3057,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Cov-hey",
+    "link": "https://11clubhouse.com/659804/",
+    "rank": 171,
+    "elo": 3053,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "jijixiao",
+    "link": "https://11clubhouse.com/1809410/",
+    "rank": 172,
+    "elo": 3052,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "CalmDownBro",
+    "link": "https://11clubhouse.com/580348/",
+    "rank": 173,
+    "elo": 3051,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "johnnybonny",
+    "link": "https://11clubhouse.com/1701958/",
+    "rank": 174,
+    "elo": 3050,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "boaty McBoat FACE",
+    "link": "https://11clubhouse.com/921615/",
+    "rank": 175,
+    "elo": 3050,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Bab6",
+    "link": "https://11clubhouse.com/2038519/",
+    "rank": 176,
+    "elo": 3049,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Gazzagalway",
+    "link": "https://11clubhouse.com/1598511/",
+    "rank": 177,
+    "elo": 3048,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "fmwallin",
+    "link": "https://11clubhouse.com/20585/",
+    "rank": 178,
+    "elo": 3047,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Ecolo Effect",
+    "link": "https://11clubhouse.com/2093370/",
+    "rank": 179,
+    "elo": 3045,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "itsJD",
+    "link": "https://11clubhouse.com/333805/",
+    "rank": 180,
+    "elo": 3045,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "johnbon",
+    "link": "https://11clubhouse.com/245151/",
+    "rank": 181,
+    "elo": 3045,
+    "paddleAdapter": "AMVR adapter"
+  },
+  {
+    "name": "11BRA_Jacob",
+    "link": "https://11clubhouse.com/2542616/",
+    "rank": 182,
+    "elo": 3045,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "Sgouros_Man",
+    "link": "https://11clubhouse.com/2060752/",
+    "rank": 183,
+    "elo": 3044,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "bazelgeuse",
+    "link": "https://11clubhouse.com/2494550/",
+    "rank": 184,
+    "elo": 3043,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "french-unknown",
+    "link": "https://11clubhouse.com/1130549/",
+    "rank": 185,
+    "elo": 3042,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "11FR_IbraVoss",
+    "link": "https://11clubhouse.com/2446873/",
+    "rank": 186,
+    "elo": 3041,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "afonso.jr",
+    "link": "https://11clubhouse.com/2678679/",
+    "rank": 187,
+    "elo": 3040,
+    "paddleAdapter": "JKL PENHOLD adapter"
+  },
+  {
+    "name": "张继科",
+    "link": "https://11clubhouse.com/1124027/",
+    "rank": 188,
+    "elo": 3039,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Wheels41215",
+    "link": "https://11clubhouse.com/516921/",
+    "rank": 189,
+    "elo": 3039,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Koji_Stlk",
+    "link": "https://11clubhouse.com/2705809/",
+    "rank": 190,
+    "elo": 3038,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "daxigua",
+    "link": "https://11clubhouse.com/2107024/",
+    "rank": 191,
+    "elo": 3037,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Bufast-L",
+    "link": "https://11clubhouse.com/1418303/",
+    "rank": 192,
+    "elo": 3036,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "ONECAT",
+    "link": "https://11clubhouse.com/1882085/",
+    "rank": 193,
+    "elo": 3036,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "Henkiespankie",
+    "link": "https://11clubhouse.com/1353712/",
+    "rank": 194,
+    "elo": 3035,
+    "paddleAdapter": "WASYL adapter"
+  },
+  {
+    "name": "fhgwiseguy",
+    "link": "https://11clubhouse.com/532961/",
+    "rank": 195,
+    "elo": 3034,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "timiss",
+    "link": "https://11clubhouse.com/1498479/",
+    "rank": 196,
+    "elo": 3034,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "11FR-ZEPHOENIX",
+    "link": "https://11clubhouse.com/1067651/",
+    "rank": 197,
+    "elo": 3033,
+    "paddleAdapter": "SOLIDSLIME adapter"
+  },
+  {
+    "name": "LekvarikP4",
+    "link": "https://11clubhouse.com/1620068/",
+    "rank": 198,
+    "elo": 3033,
+    "paddleAdapter": "my own adapter"
+  },
+  {
+    "name": "pricho",
+    "link": "https://11clubhouse.com/2121181/",
+    "rank": 199,
+    "elo": 3032,
+    "paddleAdapter": "Not specified."
+  },
+  {
+    "name": "PONDECO",
+    "link": "https://11clubhouse.com/2004520/",
+    "rank": 200,
+    "elo": 3032,
+    "paddleAdapter": "Not specified."
+  }
+]

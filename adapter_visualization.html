@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paddle Adapter Distribution</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-treemap@2.3.0/dist/chartjs-chart-treemap.min.js"></script>
+    <style>
+      body {
+        font-family: sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 50px;
+      }
+      .info-note {
+        margin-bottom: 15px;
+        padding: 10px;
+        background-color: #eef;
+        border: 1px solid #ccd;
+        border-radius: 5px;
+        font-style: italic;
+        text-align: center;
+      }
+      .chart-selector {
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+      }
+      .chart-selector label {
+        margin-right: 10px;
+        font-weight: bold;
+      }
+      .chart-selector select {
+        padding: 5px;
+        border-radius: 3px;
+        border: 1px solid #ddd;
+      }
+      .chart-container {
+        width: 80%;
+        max-width: 900px;
+        margin: auto;
+        position: relative;
+      }
+      h2 {
+        /* This was for the removed chart, can be removed if no other H2 is planned */
+        margin-top: 40px;
+      }
+      .source-note {
+        margin-top: 30px;
+        font-size: 0.9em;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Top 200 Eleven Table Tennis Players - Paddle Adapter Distribution</h1>
+
+    <div id="exclusionNote" class="info-note" style="display: none"></div>
+
+    <div class="chart-selector">
+      <label for="chartTypeSelector">Select Summary Chart Type: </label>
+      <select id="chartTypeSelector">
+        <option value="bar" selected>Bar Chart</option>
+        <option value="pie">Pie Chart</option>
+        <option value="treemap">Treemap</option>
+      </select>
+    </div>
+
+    <div class="chart-container" id="summaryChartContainer">
+      <canvas id="adapterSummaryChart"></canvas>
+    </div>
+
+    <script>
+      let summaryChartInstance = null;
+      // Removed dotDistributionChartInstance
+      let chartDataCache = {
+        labels: [],
+        dataValues: [],
+        sortedAdaptersArray: [],
+        // playerRankData is no longer needed for the removed chart
+      };
+      let notSpecifiedCount = 0;
+
+      function generateColors(count) {
+        const baseColors = [
+          "rgba(255, 99, 132, 0.8)",
+          "rgba(54, 162, 235, 0.8)",
+          "rgba(255, 206, 86, 0.8)",
+          "rgba(75, 192, 192, 0.8)",
+          "rgba(153, 102, 255, 0.8)",
+          "rgba(255, 159, 64, 0.8)",
+          "rgba(199, 199, 199, 0.8)",
+          "rgba(83, 102, 255, 0.8)",
+          "rgba(40, 159, 64, 0.8)",
+          "rgba(210, 99, 132, 0.8)",
+          "rgba(100, 100, 255, 0.8)",
+          "rgba(255, 100, 100, 0.8)",
+        ];
+        const colors = [];
+        for (let i = 0; i < count; i++) {
+          colors.push(baseColors[i % baseColors.length]);
+        }
+        return colors;
+      }
+
+      async function fetchDataAndInitialRender() {
+        try {
+          const response = await fetch("./adapters_top200.json");
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          const rawPlayerData = await response.json();
+
+          const allAdapterCounts = rawPlayerData.reduce((acc, player) => {
+            const adapter = player.paddleAdapter || "Not specified.";
+            acc[adapter] = (acc[adapter] || 0) + 1;
+            return acc;
+          }, {});
+
+          notSpecifiedCount = allAdapterCounts["Not specified."] || 0;
+          const exclusionNoteEl = document.getElementById("exclusionNote");
+          if (notSpecifiedCount > 0) {
+            exclusionNoteEl.textContent = `${notSpecifiedCount} player(s) with "Not specified." paddle adapters have been excluded from the charts.`;
+            exclusionNoteEl.style.display = "block";
+          } else {
+            exclusionNoteEl.style.display = "none";
+          }
+
+          // playerRankData processing removed as it's no longer needed
+
+          const filteredAdapterCounts = { ...allAdapterCounts };
+          delete filteredAdapterCounts["Not specified."];
+
+          const sortedFilteredAdapters = Object.entries(filteredAdapterCounts)
+            .sort(([, a], [, b]) => b - a)
+            .reduce((r, [k, v]) => ({ ...r, [k]: v }), {});
+
+          chartDataCache.labels = Object.keys(sortedFilteredAdapters);
+          chartDataCache.dataValues = Object.values(sortedFilteredAdapters);
+          chartDataCache.sortedAdaptersArray = Object.entries(
+            sortedFilteredAdapters
+          ).map(([name, value]) => ({ name, value }));
+
+          renderSummaryChart("bar");
+          // Call to renderDotDistributionChart removed
+
+          document
+            .getElementById("chartTypeSelector")
+            .addEventListener("change", function () {
+              renderSummaryChart(this.value);
+            });
+        } catch (error) {
+          console.error("Failed to load or process data:", error);
+          document.getElementById("summaryChartContainer").innerHTML =
+            '<p style="color: red;">Error loading summary chart data. Please check the console.</p>';
+          // Error message for dot distribution chart container removed
+        }
+      }
+
+      function renderSummaryChart(chartType) {
+        if (summaryChartInstance) {
+          summaryChartInstance.destroy();
+        }
+        const summaryCtx = document
+          .getElementById("adapterSummaryChart")
+          .getContext("2d");
+        let chartConfig = {};
+
+        const displayLabels = chartDataCache.labels;
+        const displayDataValues = chartDataCache.dataValues;
+
+        if (displayLabels.length === 0) {
+          document.getElementById("summaryChartContainer").innerHTML =
+            "<p>No specified adapter data for summary chart.</p>";
+          summaryChartInstance = null;
+          return;
+        } else {
+          const canvas = document.getElementById("adapterSummaryChart");
+          if (!canvas.parentNode) {
+            // Should not happen if container is not removed
+            document.getElementById("summaryChartContainer").innerHTML =
+              '<canvas id="adapterSummaryChart"></canvas>';
+          }
+        }
+
+        switch (chartType) {
+          case "bar":
+            chartConfig = {
+              type: "bar",
+              data: {
+                labels: displayLabels,
+                datasets: [
+                  {
+                    label: "# of Players",
+                    data: displayDataValues,
+                    backgroundColor: "rgba(75, 192, 192, 0.6)",
+                    borderColor: "rgba(75, 192, 192, 1)",
+                    borderWidth: 1,
+                  },
+                ],
+              },
+              options: {
+                indexAxis: "y",
+                responsive: true,
+                maintainAspectRatio: true,
+                scales: {
+                  x: {
+                    beginAtZero: true,
+                    title: { display: true, text: "Number of Players" },
+                  },
+                  y: { title: { display: true, text: "Paddle Adapter Type" } },
+                },
+                plugins: {
+                  title: {
+                    display: true,
+                    text: "Paddle Adapter Distribution (Bar Chart)",
+                    font: { size: 16 },
+                  },
+                  tooltip: {
+                    callbacks: {
+                      label: (ctx) =>
+                        `${ctx.dataset.label || ""}: ${ctx.parsed.x || ""}`,
+                    },
+                  },
+                },
+              },
+            };
+            break;
+          case "pie":
+            chartConfig = {
+              type: "pie",
+              data: {
+                labels: displayLabels,
+                datasets: [
+                  {
+                    label: "# of Players",
+                    data: displayDataValues,
+                    backgroundColor: generateColors(displayLabels.length),
+                    borderColor: "#fff",
+                    borderWidth: 1,
+                  },
+                ],
+              },
+              options: {
+                responsive: true,
+                maintainAspectRatio: true,
+                plugins: {
+                  legend: { position: "top" },
+                  title: {
+                    display: true,
+                    text: "Paddle Adapter Distribution (Pie Chart)",
+                    font: { size: 16 },
+                  },
+                  tooltip: {
+                    callbacks: {
+                      label: (ctx) => {
+                        let l = ctx.label || "";
+                        if (l) {
+                          l += ": ";
+                        }
+                        l += ctx.parsed || 0;
+                        const total = ctx.dataset.data.reduce(
+                          (s, v) => s + v,
+                          0
+                        );
+                        if (total > 0) {
+                          l += ` (${(((ctx.parsed || 0) / total) * 100).toFixed(
+                            2
+                          )}%)`;
+                        }
+                        return l;
+                      },
+                    },
+                  },
+                },
+              },
+            };
+            break;
+          case "treemap":
+            chartConfig = {
+              type: "treemap",
+              data: {
+                datasets: [
+                  {
+                    label: "Paddle Adapter Distribution",
+                    tree: chartDataCache.sortedAdaptersArray,
+                    key: "value",
+                    groups: ["name"],
+                    backgroundColor: (ctx) => {
+                      if (ctx.type !== "data" || !ctx.raw || !ctx.raw._data) {
+                        return "rgba(0,0,0,0.2)";
+                      }
+                      const item = ctx.raw._data;
+                      const clrs = generateColors(
+                        chartDataCache.sortedAdaptersArray.length
+                      );
+                      let idx = chartDataCache.sortedAdaptersArray.findIndex(
+                        (d) => d.name === item.name && d.value === item.value
+                      );
+                      if (idx === -1 && ctx.dataIndex !== undefined) {
+                        idx = ctx.dataIndex;
+                      }
+                      return clrs[idx % clrs.length];
+                    },
+                    borderColor: "rgba(255,255,255,0.7)",
+                    borderWidth: 1,
+                    spacing: 0.5,
+                    fontColor: "white",
+                  },
+                ],
+              },
+              options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                  title: {
+                    display: true,
+                    text: "Paddle Adapter Distribution (Treemap)",
+                    font: { size: 16 },
+                  },
+                  legend: { display: false },
+                  tooltip: {
+                    callbacks: {
+                      title: (items) =>
+                        items.length > 0 && items[0].raw && items[0].raw._data
+                          ? items[0].raw._data.name || ""
+                          : "",
+                      label: (ctx) =>
+                        ctx.raw && ctx.raw._data
+                          ? `# of Players: ${ctx.raw._data.value || 0}`
+                          : "",
+                    },
+                  },
+                },
+              },
+            };
+            break;
+        }
+        const summaryCanvas = document.getElementById("adapterSummaryChart");
+        const newSummaryCtx = summaryCanvas.getContext("2d");
+        summaryChartInstance = new Chart(newSummaryCtx, chartConfig);
+      }
+
+      // renderDotDistributionChart function removed
+
+      fetchDataAndInitialRender();
+    </script>
+    <p class="source-note">Source: 11ClubHouse.com</p>
+  </body>
+</html>
